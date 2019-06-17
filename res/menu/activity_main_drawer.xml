@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_products"
+            android:icon="@mipmap/ic_basket"
+            android:title="Товары" />
+        <item
+            android:id="@+id/nav_orders"
+            android:icon="@mipmap/ic_orders_list"
+            android:title="Заказы" />
+        <item
+            android:id="@+id/nav_adverts"
+            android:icon="@mipmap/ic_adverts_list"
+            android:title="Объявления" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@mipmap/ic_settings"
+            android:title="Настройки" />
+    </group>
+</menu>
